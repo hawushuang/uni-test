@@ -1,0 +1,1 @@
+<view bind:__l="__l"><view class="content">新建好心情</view></view>

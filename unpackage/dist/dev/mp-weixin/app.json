@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mylove/mylove",
+    "pages/detail/detail",
+    "pages/create/create"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "red",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/feel.png",
+        "selectedIconPath": "static/feelA.png",
+        "text": "心情"
+      },
+      {
+        "pagePath": "pages/mylove/mylove",
+        "iconPath": "static/love.png",
+        "selectedIconPath": "static/loveA.png",
+        "text": "交给我吧"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
